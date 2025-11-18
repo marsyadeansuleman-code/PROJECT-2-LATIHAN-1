@@ -72,8 +72,7 @@ cp -r Engineering/Documents/Doc_engineering.pdf Engineerinf/Archives
 ```
 cp -r HR/Documents/HR_pict.jpg HR/Archives
 ```
-# MENAMPILAN ISI FOLDER
-# Marketing,Engineering,HR
+# MENAMPILAN ISI FOLDER Marketing,Engineering,HR
 Definisi gambar
 https://drive.google.com/file/d/1WF2ZdwjRi52lCC2hXCB_6oKpzps8fiD2/view?usp=drivesdk
 ```
