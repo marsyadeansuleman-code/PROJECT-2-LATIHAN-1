@@ -7,7 +7,7 @@ mkdir Marketing Enginering HR
 ```
 # MEMBUAT SUBFOLDER DI MASING-MASING DIREKTORI
 Definisi gambar
-https://drive.google.com/file/d/1l9KBruILwD0dX2oPpzSulVFSHyI9n_1g/view?usp=drivesdk
+https://drive.google.com/file/d/1l9KBruILwD0dX2oPpzSulVFSHyI9n_1g/view?usp=drivesdk.
 `ISI LANGKAH-LANGKAH DAN PERINTAH`
 ```
 ‎virtualbos:-/project_1$ cd Marketing
@@ -48,9 +48,9 @@ https://drive.google.com/file/d/1l9KBruILwD0dX2oPpzSulVFSHyI9n_1g/view?usp=drive
 ‎virtualbox:~/project_1/HR$ cd ..
 ```
 -`Penjelasan`
--`mkdir` Membuat folfer baru
--`cd` Masuk ke folder
--`cd ..` Keluar ke folder sebelumnya
+-`mkdir`- Membuat folfer baru.
+-`cd` - Masuk ke folder.
+-`cd ..` - Keluar ke folder sebelumnya.
 # LANGKAH 2 MEMINDAHKAN FILE YANG SALAH TEMPAT KE FIREKTORI YANG BENAR
 Definisi gambar
 https://drive.google.com/file/d/1jruhOvXfXie--b6SyKoJJKptwZPwjJ24/view?usp=drivesdk
