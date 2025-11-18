@@ -8,7 +8,6 @@ mkdir Marketing Enginering HR
 # LANGKAH 2 Membuat subforder pada direktori dan archiven di masing-masing
 Definisi gambar
 https://drive.google.com/file/d/1l9KBruILwD0dX2oPpzSulVFSHyI9n_1g/view?usp=drivesdk
-# LANGKAH-LANGKAH DAN PERINTAH PENYUSUNAN
 ```
 virtualbox:-/project_1$ cd Marketing
 virtualbox:~/project_1/Marketing$ mkdir Documents Archives
@@ -47,6 +46,40 @@ virtualbox:~/project_1/HR/Archives$ mkdir file_HR.pdf
 virtualbox:~/project_1/HR/Archives$ cd ..
 virtualbox:~/project_1/HR$ cd ..
 ```
+# MENAMPILAN ISI folder Marketing Enginering HR
+Definisi gambar
+https://drive.google.com/file/d/1WF2ZdwjRi52lCC2hXCB_6oKpzps8fiD2/view?usp=drivesdk
+```
+Tree -P "Marketing Engineering HR
+```
+# LANGKAH 3 MEMINDAHKAN FILE YANG SALAH TEMPAT KE FIREKTORI YANG BENAR
+Definisi gambar
+https://drive.google.com/file/d/1jruhOvXfXie--b6SyKoJJKptwZPwjJ24/view?usp=drivesdk
+```
+mv Marketing/Documents/engineering_report.txt Engeneering/Archives
+```
+```
+mv Engineering/Archives/Doc_Marketinf.txt Marketing/Documents
+```
+# MEMBUAT BACKUP DI FOLDER ARCHIVES
+Definisi gambar
+https://drive.google.com/file/d/1EEIXRFoXO_Uduwb6rs9DKZ5j_B_Sen7N/view?usp=drivesdk
+```
+cp -r Marketing/Dokuments/Doc_Marketing.txt Marketing/Archives
+```
+```
+cp -r Engineering/Documents/Doc_engineering.pdf Engineerinf/Archives
+```
+```
+cp -r HR/Documents/HR_pict.jpg HR/Archives
+```
+#LANGKAH 4 MENAMPILKAN FILE PDF -7 HARI YANG LALU
+Definisi gambar
+
+
+
+
+
 
 
 
