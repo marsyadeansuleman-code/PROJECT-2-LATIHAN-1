@@ -8,7 +8,7 @@ mkdir Marketing Enginering HR
 # MEMBUAT SUBFOLDER DI MASING-MASING DIREKTORI
 Definisi gambar
 https://drive.google.com/file/d/1l9KBruILwD0dX2oPpzSulVFSHyI9n_1g/view?usp=drivesdk.
-`ISI LANGKAH-LANGKAH DAN PERINTAH`
+#`ISI LANGKAH-LANGKAH DAN PERINTAH`
 ```
 ‎virtualbos:-/project_1$ cd Marketing
 ‎virtualbox:~/project_1/Marketing$ mkdir Documents Archives
@@ -47,10 +47,10 @@ https://drive.google.com/file/d/1l9KBruILwD0dX2oPpzSulVFSHyI9n_1g/view?usp=drive
 ‎virtualbox:~/project_1/HR/Archives$ cd ..
 ‎virtualbox:~/project_1/HR$ cd ..
 ```
--`Penjelasan`
--`mkdir`- Membuat folfer baru.
--`cd` - Masuk ke folder.
--`cd ..` - Keluar ke folder sebelumnya.
+*`Penjelasan`.
+* `mkdir` → membuat folder baru.
+* `cd` → masuk ke folder.
+* `cd ..` → keluar ke folder sebelumnga.
 # LANGKAH 2 MEMINDAHKAN FILE YANG SALAH TEMPAT KE FIREKTORI YANG BENAR
 Definisi gambar
 https://drive.google.com/file/d/1jruhOvXfXie--b6SyKoJJKptwZPwjJ24/view?usp=drivesdk
@@ -78,12 +78,9 @@ https://drive.google.com/file/d/1WF2ZdwjRi52lCC2hXCB_6oKpzps8fiD2/view?usp=drive
 ```
 Tree -P "Marketing Engineering HR
 ```
--`Penjelasan`
--`mv` Memindahkan folder/file dan merename
--`cp -r` Meng-backup/Mengcopy folder/file beserta isinya
--`Tree -p` Menampilkan pohon folder beserta permisionnya
-
-# LANGKAH 3 SET PERMISION/MEMBATASI HAK AKSES DI SETIAP FOLDER
+*`Penjelasan`.
+* `mv` → memindahkan file/folder.
+* `cp -foldemasukmasuk ke foldercd* `cd ..` → keluar ke folder ANGKAHNGKAH 3 SET PERMISION/MEMBATASI HAK AKSES DI SETIAP FOLDER
 Definisi Gambar
 https://drive.google.com/file/d/1BC9LtfxGCl_V7TYUchoc7J1x_x0TDNvX/view?usp=drivesdk
 ```
