@@ -72,7 +72,8 @@ cp -r Engineering/Documents/Doc_engineering.pdf Engineerinf/Archives
 ```
 cp -r HR/Documents/HR_pict.jpg HR/Archives
 ```
-# MENAMPILAN ISI folder Marketing Enginering HR
+# MENAMPILAN ISI FOLDER
+# Marketing,Engineering,HR
 Definisi gambar
 https://drive.google.com/file/d/1WF2ZdwjRi52lCC2hXCB_6oKpzps8fiD2/view?usp=drivesdk
 ```
@@ -95,7 +96,7 @@ sudo groupadd Enginering
 ```
 sudo groupadd HR HR
 ```
-# MENGUBAH MENGUBAH KEPEMILIKAN FOLDER DAN SEMUA ISI DI DALAMNYA
+# MENGUBAH KEPEMILIKAN FOLDER DAN SEMUA ISI DI DALAMNYA
 Definisi gambar
 https://drive.google.com/file/d/1W9PEGwFqHukq0qG3YshYNafKVIrJYlOe/view?usp=drivesdk
 ```
