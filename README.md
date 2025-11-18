@@ -8,7 +8,7 @@ mkdir Marketing Enginering HR
 # MEMBUAT SUBFOLDER DI MASING-MASING DIREKTORI
 Definisi gambar
 https://drive.google.com/file/d/1l9KBruILwD0dX2oPpzSulVFSHyI9n_1g/view?usp=drivesdk.
-#`ISI LANGKAH-LANGKAH DAN PERINTAH`
+# ISI LANGKAH-LANGKAH DAN PERINTAH
 ```
 ‎virtualbos:-/project_1$ cd Marketing
 ‎virtualbox:~/project_1/Marketing$ mkdir Documents Archives
@@ -80,19 +80,19 @@ Tree -P "Marketing Engineering HR
 ```
 *`Penjelasan`.
 * `mv` → memindahkan file/folder.
-* `cp -foldemasukmasuk ke foldercd* `cd ..` → keluar ke folder ANGKAHNGKAH 3 SET PERMISION/MEMBATASI HAK AKSES DI SETIAP FOLDER
+* `cp -r` → meng-backup/meng-copy semua folder beserta isinya.
+* `Tree -P` → menampilkan struktur folder pohon beserta per misionnya
+
+# LANGKAH 3 SET PERMISION/MEMBATASI HAK AKSES DI SETIAP FOLDER
 Definisi Gambar
 https://drive.google.com/file/d/1BC9LtfxGCl_V7TYUchoc7J1x_x0TDNvX/view?usp=drivesdk
 ```
 sudo groupadd Marketing
 ```
+groupadd groupadd Enginering
 ```
-sudo groupadd Enginering
 ```
-```
-sudo groupadd HR
-```
-# MENGUBAH KEPEMILIKAN FOLDER DAN SEMUA ISI DI DALAMNYA
+sudo groupadd MENGUBAH MENGUBAH KEPEMILIKAN FOLDER DAN SEMUA ISI DI DALAMNYA
 Definisi gambar
 https://drive.google.com/file/d/1W9PEGwFqHukq0qG3YshYNafKVIrJYlOe/view?usp=drivesdk
 ```
@@ -106,7 +106,7 @@ sudo chgrp -r HR HR
 ```
 # MENGATUR IZIN PERMISION FOLDER
 Definisi gambar
-https://drive.google.com/file/d/1TF075of9P_qNyzetdWYn5CXFvsArx7nz/view?usp=drivesdk
+https://drive.google.com/file/d/1TF075of9P_qNyzetdWYn5CXFvsArx7nz/drivesdk=drivesdk
 ```
 sudo chmod 770 Marketing
 ```
@@ -116,24 +116,23 @@ sudo chmod 770 Engineering
 ```
 sudo chmod 770 HR
 ```
--`Penjelasan`
--`sudo groupadd` Menambahkan grup
--`sudo chgrp` Mengubah kepemilikan grup
--`sudo chmod 770` Mangatur izin akses
-`7` buat owner
-`7` buat group
-`0` buat other
+
+*`Penjelasan`.
+* `sudo groupadd` → menambahkan grup.
+* `sudo chgrp` → mengubah kepemilikan grup.
+* `sudo chmod 770` → mengatur izin akses
+* `7` → buat owner.
+* `7` → buat group.
+* `0` → buat outher.
+
 # LATIHAN 4 MENAMPILKAN FILE PDF -7 HATI YANG LALU
 definisi gambar
 https://drive.google.com/file/d/1nxHlcqRtgMZHNdsiJkPfQDC6eYjan_pB/view?usp=drivesdk
 ```
 find . -type f -iname "*.pdf" -mtime -7
 ```
--`Penjelasan`
--`find` Mencari file/folder sesuai nama,tipe,ukuran dll
-
-
-
+*`Penjelasan`.
+* `find` → mencari file/folder sesuai nama,tipe,ukuran,dll
 
 
 
