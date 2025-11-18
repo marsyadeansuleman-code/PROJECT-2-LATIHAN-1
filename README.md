@@ -89,10 +89,13 @@ https://drive.google.com/file/d/1BC9LtfxGCl_V7TYUchoc7J1x_x0TDNvX/view?usp=drive
 ```
 sudo groupadd Marketing
 ```
-groupadd groupadd Enginering
+```
+sudo groupadd Enginering
 ```
 ```
-sudo groupadd MENGUBAH MENGUBAH KEPEMILIKAN FOLDER DAN SEMUA ISI DI DALAMNYA
+sudo groupadd HR HR
+```
+# MENGUBAH MENGUBAH KEPEMILIKAN FOLDER DAN SEMUA ISI DI DALAMNYA
 Definisi gambar
 https://drive.google.com/file/d/1W9PEGwFqHukq0qG3YshYNafKVIrJYlOe/view?usp=drivesdk
 ```
