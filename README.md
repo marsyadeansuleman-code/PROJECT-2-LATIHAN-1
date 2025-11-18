@@ -1,5 +1,5 @@
 # PROJECT-2-LATIHAN-
-# LANGKAH 1 Membuat direktori untuk 3 departemen(Marketing Engineering HR)
+# LANGKAH 1 MEMBUAT DIREKTORI UNTUK 3 DEPARTEMEN MARKETING,ENGINEERING,HR
 Definisi gambar
 https://drive.google.com/file/d/1-GOjiAS4DYMLz0Z_A-0N-SIYlr5REPFi/view?usp=drivesdk
 ```
@@ -47,6 +47,10 @@ https://drive.google.com/file/d/1l9KBruILwD0dX2oPpzSulVFSHyI9n_1g/view?usp=drive
 ‎virtualbox:~/project_1/HR/Archives$ cd ..
 ‎virtualbox:~/project_1/HR$ cd ..
 ```
+-`Penjelasan`
+-`mkdir` Membuat folfer baru
+-`cd` Masuk ke folder
+-`cd ..` Keluar ke folder sebelumnya
 # LANGKAH 2 MEMINDAHKAN FILE YANG SALAH TEMPAT KE FIREKTORI YANG BENAR
 Definisi gambar
 https://drive.google.com/file/d/1jruhOvXfXie--b6SyKoJJKptwZPwjJ24/view?usp=drivesdk
@@ -74,51 +78,62 @@ https://drive.google.com/file/d/1WF2ZdwjRi52lCC2hXCB_6oKpzps8fiD2/view?usp=drive
 ```
 Tree -P "Marketing Engineering HR
 ```
+-`Penjelasan`
+-`mv` Memindahkan folder/file dan merename
+-`cp -r` Meng-backup/Mengcopy folder/file beserta isinya
+-`Tree -p` Menampilkan pohon folder beserta permisionnya
 
-#LANGKAH 4 MENAMPILKAN FILE PDF -7 HARI YANG LALU
+# LANGKAH 3 SET PERMISION/MEMBATASI HAK AKSES DI SETIAP FOLDER
+Definisi Gambar
+https://drive.google.com/file/d/1BC9LtfxGCl_V7TYUchoc7J1x_x0TDNvX/view?usp=drivesdk
+```
+sudo groupadd Marketing
+```
+```
+sudo groupadd Enginering
+```
+```
+sudo groupadd HR
+```
+# MENGUBAH KEPEMILIKAN FOLDER DAN SEMUA ISI DI DALAMNYA
 Definisi gambar
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+https://drive.google.com/file/d/1W9PEGwFqHukq0qG3YshYNafKVIrJYlOe/view?usp=drivesdk
+```
+sudo chgrp -r Marketing Marketing
+```
+```
+sudo chgrp -r Engineering Engineering
+```
+```
+sudo chgrp -r HR HR
+```
+# MENGATUR IZIN PERMISION FOLDER
+Definisi gambar
+https://drive.google.com/file/d/1TF075of9P_qNyzetdWYn5CXFvsArx7nz/view?usp=drivesdk
+```
+sudo chmod 770 Marketing
+```
+```
+sudo chmod 770 Engineering
+```
+```
+sudo chmod 770 HR
+```
+-`Penjelasan`
+-`sudo groupadd` Menambahkan grup
+-`sudo chgrp` Mengubah kepemilikan grup
+-`sudo chmod 770` Mangatur izin akses
+`7` buat owner
+`7` buat group
+`0` buat other
+# LATIHAN 4 MENAMPILKAN FILE PDF -7 HATI YANG LALU
+definisi gambar
+https://drive.google.com/file/d/1nxHlcqRtgMZHNdsiJkPfQDC6eYjan_pB/view?usp=drivesdk
+```
+find . -type f -iname "*.pdf" -mtime -7
+```
+-`Penjelasan`
+-`find` Mencari file/folder sesuai nama,tipe,ukuran dll
 
 
 
