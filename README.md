@@ -38,7 +38,7 @@ mv images/file13.jpg HR/Documents
 ```
 # MEMBUAT BACKUP DI FOLDER ARCHIVES
 Definisi gambar
-[https://drive.google.com/file/d/1EEIXRFoXO_Uduwb6rs9DKZ5j_B_Sen7N/view?usp=drivesdk](https://drive.google.com/file/d/104y_pYjswrJFGp5o1FRo2ZMmKl0tN3My/view?usp=drivesdk)
+[https://drive.google.com/file/d/1EEIXRFoXO_Uduwb6rs9DKZ5j_B_Sen7N/view?usp=drivesdk].
 ```
 cp -r Marketing/Dokuments/Marketing.docx Marketing/Archives
 ```
@@ -69,7 +69,7 @@ sudo groupadd Marketing
 sudo groupadd Enginering
 ```
 ```
-sudo groupadd HR HR
+sudo groupadd HR 
 ```
 # MENGUBAH KEPEMILIKAN FOLDER DAN SEMUA ISI DI DALAMNYA
 Definisi gambar
