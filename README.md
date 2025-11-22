@@ -1,5 +1,6 @@
 # PROJECT-2-LATIHAN-
-# LANGKAH 1 MEMBUAT DIREKTORI UNTUK 3 DEPARTEMEN MARKETING,ENGINEERING,HR
+# LANGKAH 1 
+# Membuat Direktori untuk 3 Departemen MARKETING,ENGINEERING,HR
 Definisi gambar
 https://drive.google.com/file/d/1-GOjiAS4DYMLz0Z_A-0N-SIYlr5REPFi/view?usp=drivesdk
 ```
@@ -7,50 +8,21 @@ mkdir Marketing Enginering HR
 ```
 # MEMBUAT SUBFOLDER DI MASING-MASING DIREKTORI
 Definisi gambar
-https://drive.google.com/file/d/1l9KBruILwD0dX2oPpzSulVFSHyI9n_1g/view?usp=drivesdk.
-# ISI LANGKAH-LANGKAH DAN PERINTAH
+(https://drive.google.com/file/d/12D3Kwj6yivIi9fR0FQ9hxc-0ZTQci57f/view?usp=drivesdk)).
 ```
-‎virtualbos:-/project_1$ cd Marketing
-‎virtualbox:~/project_1/Marketing$ mkdir Documents Archives
-‎virtualbox:~/project_1/Marketing$ ls
-‎Archives Documents
-‎virtualbox:~/project_1/Marketing$ cd Documents
-‎virtualbox:~/project_1/Marketing/Documents$ mkdir engineering_report.txt
-‎virtualbox:~/project_1/Marketing/Documents$ ls
-‎engineering_report.txt
-‎virtualbox:~/project_1/Marketing/Documents$ cd ..
-‎virtualbox:~/project_1/Marketing$ cd Archives
-‎virtualbox:~/project_1/Marketing/Archives$ mkdir Laporan_Marketing.pdf
-‎virtualbox:~/project_1/Marketing/Archives$ ls
-‎Laporan_Marketing.pdf
-‎virtualbox:~/project_1/Marketing/Archives$ cd ..
-‎virtualbox:~/project_1/Marketing$ cd ..
-‎virtualbox:~/project_1$ cd Engineering
-‎virtualbox:~/project_1/Engineering$ cd Documents
-‎virtualbox:~/project_1/Engineering$ mkdir Documents
-‎virtualbox:~/project_1/Engineering$ cd Documents
-‎virtualbox:~/project_1/Engineering/Documents$ mkdir Doc_engineering.pdf
-‎virtualbox:~/project_1/Engineering/Documents$ cd ..
-‎virtualbox:~/project_1/Engineering$ mkdir Archives
-‎virtualbox:~/project_1/Engineering$ cd Archives
-‎virtualbox:~/project_1/Engineering/Archives$ mkdir Doc_Marketing.txt
-‎virtualbox:~/project_1/Engineering/Archives$ cd ..
-‎virtualbox:~/project_1/Engineering$ cd ..
-‎virtualbox:~/project_1$ cd HR
-‎virtualbox:~/project_1/HR$ mkdir Documents
-‎virtualbox:~/project_1/HR$ cd Documents
-‎virtualbox:~/project_1/HR/Documents$ mkdir HR_pict.jpg
-‎virtualbox:~/project_1/HR/Documents$ cd ..
-‎virtualbox:~/project_1/HR$ mkdir Archives
-‎virtualbox:~/project_1/HR$ cd Archives
-‎virtualbox:~/project_1/HR/Archives$ mkdir file_HR.pdf
-‎virtualbox:~/project_1/HR/Archives$ cd ..
-‎virtualbox:~/project_1/HR$ cd ..
+Marsyadea@Marsyadea-virtualbox:$ cd Marketing
+Marsyadea@Marsyadea-virtualbox:$ mkdir Documents Archives
+Marsyadea@Marsyadea-virtualbox:$ cd Documents
+Marsyadea@Marsyadea-virtualbox-Documents:$ touch Marketing.docx
+Marsyadea@Marsyadea-virtualbox-Documents:$ cd ..
+Marsyadea@Marsyadea-virtualbox:$cd Archives
+Marsyadea@Marsyadea-virtualbox-Archives:$ touch TargetPasar_file.pdf
+Marsyadea@Marsyadea-virtualbox-Archives:$cd ..
 ```
 *`Penjelasan`.
 * `mkdir` → membuat folder baru.
 * `cd` → masuk ke folder.
-* `cd ..` → keluar ke folder sebelumnga.
+* `cd ..` → keluar ke folder sebelumnya.
 # LANGKAH 2 MEMINDAHKAN FILE YANG SALAH TEMPAT KE FIREKTORI YANG BENAR
 Definisi gambar
 https://drive.google.com/file/d/1jruhOvXfXie--b6SyKoJJKptwZPwjJ24/view?usp=drivesdk
