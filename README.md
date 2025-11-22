@@ -21,28 +21,32 @@ Marsyadea@Marsyadea-virtualbox-Archives:$cd ..
 ```
 *`Penjelasan`.
 * `mkdir` → membuat folder baru.
+* `touch` → membuat file baru.
 * `cd` → masuk ke folder.
 * `cd ..` → keluar ke folder sebelumnya.
 # LANGKAH 2 MEMINDAHKAN FILE YANG SALAH TEMPAT KE FIREKTORI YANG BENAR
 Definisi gambar
-https://drive.google.com/file/d/1jruhOvXfXie--b6SyKoJJKptwZPwjJ24/view?usp=drivesdk
+https://drive.google.com/file/d/1b7uEZZe_NIXLTyM7nIXzGTZlG3CcKxro/view?usp=drivesdk
 ```
-mv Marketing/Documents/engineering_report.txt Engeneering/Archives
+mv images/file11.jpg Marketing/Documents
 ```
 ```
-mv Engineering/Archives/Doc_Marketinf.txt Marketing/Documents
+mv images/file12.jpg Engineering/Documents
+```
+```
+mv images/file13.jpg HR/Documents
 ```
 # MEMBUAT BACKUP DI FOLDER ARCHIVES
 Definisi gambar
-https://drive.google.com/file/d/1EEIXRFoXO_Uduwb6rs9DKZ5j_B_Sen7N/view?usp=drivesdk
+[https://drive.google.com/file/d/1EEIXRFoXO_Uduwb6rs9DKZ5j_B_Sen7N/view?usp=drivesdk](https://drive.google.com/file/d/104y_pYjswrJFGp5o1FRo2ZMmKl0tN3My/view?usp=drivesdk)
 ```
-cp -r Marketing/Dokuments/Doc_Marketing.txt Marketing/Archives
-```
-```
-cp -r Engineering/Documents/Doc_engineering.pdf Engineerinf/Archives
+cp -r Marketing/Dokuments/Marketing.docx Marketing/Archives
 ```
 ```
-cp -r HR/Documents/HR_pict.jpg HR/Archives
+cp -r Engineering/Documents/Engineering.docx Engineering/Archives
+```
+```
+cp -r HR/Documents/HR.docx HR/Archives
 ```
 # MENAMPILAN ISI FOLDER Marketing,Engineering,HR
 Definisi gambar
